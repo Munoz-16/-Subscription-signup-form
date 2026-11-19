@@ -24,6 +24,8 @@ body {
     border-radius: 50%;
     display: block;
     margin: 10px auto 20px;
+    border: 3px solid #471869; /* Adds a 3px solid purple border around the image */
+}
 }
 
 /* Main product heading */
