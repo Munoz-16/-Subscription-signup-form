@@ -1,0 +1,88 @@
+/* General page styling */
+body {
+    background-color: #f4f1f8; /* Sets a light purple background */
+    font-family: Arial, sans-serif; /* Changes the font to Arial */
+    display: flex; /* Enables flexible positioning */
+    justify-content: center; /* Centers the form horizontally */
+    align-items: center; /* Centers the form vertically */
+    min-height: 100vh; /* Makes the page at least the full screen height */
+    margin: 0; /* Removes the browser's default margin */
+}
+
+/* Main form container */
+.form-container {
+    background-color: white; /* Gives the form a white background */
+    width: 350px; /* Sets the width of the form */
+    padding: 35px; /* Adds space inside the container */
+    border-radius: 15px; /* Rounds the corners of the container */
+    text-align: center; /* Centers all text inside the container */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Main product heading */
+h1 {
+    color: #471869; /* Sets the BarkerBox brand color */
+    font-size: 36px; /* Makes the product name larger */
+    margin-bottom: 10px; /* Adds space below the heading */
+}
+
+/* Promotional heading */
+h2 {
+    color: #471869; /* Uses the brand color */
+    font-size: 22px; /* Sets the promotional heading size */
+    margin-bottom: 15px; /* Adds space below the heading */
+}
+
+/* Product description */
+p {
+    color: #555555; /* Sets a dark gray text color */
+    font-size: 15px; /* Sets the paragraph text size */
+    line-height: 1.6; /* Adds comfortable spacing between lines */
+    margin-bottom: 25px; /* Adds space below the paragraph */
+}
+
+/* Email field label */
+label {
+    display: block; /* Places the label on its own line */
+    text-align: left; /* Aligns the label to the left */
+    margin-bottom: 8px; /* Adds space below the label */
+    font-weight: bold; /* Makes the label text bold */
+    color: #333333; /* Sets the label text color */
+}
+
+/* Email input field */
+input {
+    width: 100%; /* Makes the input fill the available width */
+    padding: 12px; /* Adds space inside the input */
+    border: 1px solid #cccccc; /* Adds a light gray border */
+    border-radius: 6px; /* Rounds the input corners */
+    box-sizing: border-box; /* Includes padding and border in the width */
+    font-size: 14px; /* Sets the input text size */
+    margin-bottom: 18px; /* Adds space below the input */
+}
+
+/* Subscription button */
+button {
+    background-color: #471869; /* Sets the button to the brand color */
+    color: white; /* Makes the button text white */
+    border: none; /* Removes the default button border */
+    padding: 14px; /* Adds space inside the button */
+    width: 100%; /* Makes the button fill the container width */
+    border-radius: 6px; /* Rounds the button corners */
+    font-size: 16px; /* Sets the button text size */
+    font-weight: bold; /* Makes the button text bold */
+    cursor: pointer; /* Changes the cursor when hovering */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #35104f; /* Darkens the button when hovered */
+}
+
+/* Footer promotional text */
+.footer-text {
+    font-size: 12px; /* Makes the footer text smaller */
+    color: #777777; /* Gives the footer a softer gray color */
+    margin-top: 20px; /* Adds space above the footer */
+    margin-bottom: 0; /* Removes extra space below the footer */
+}
