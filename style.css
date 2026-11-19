@@ -19,6 +19,13 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
 
+.featured-img {
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto 20px;
+}
+
 /* Main product heading */
 h1 {
     color: #471869; /* Sets the BarkerBox brand color */
@@ -39,6 +46,7 @@ p {
     font-size: 15px; /* Sets the paragraph text size */
     line-height: 1.6; /* Adds comfortable spacing between lines */
     margin-bottom: 25px; /* Adds space below the paragraph */
+    text-align: left;
 }
 
 /* Email field label */

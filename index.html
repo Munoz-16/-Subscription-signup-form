@@ -16,6 +16,8 @@
     <!-- Main subscription form container -->
     <div class="form-container">
 
+        <img class="featured-img" src="dog.jpg" alt="Illustration of a happy dog.">
+
         <!-- Product name -->
         <h1>BarkerBox</h1>
 
@@ -35,9 +37,18 @@
         <form>
 
             <!-- Email input label -->
-            <label for="email">Enter your email address:</label>
+            <label for="email">Enter your name:</label>
 
             <!-- Required email field -->
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+            >
+            <label for="email">Enter your email address:</label>
+
             <input
                 type="email"
                 id="email"
